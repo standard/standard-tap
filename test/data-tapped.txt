@@ -1,0 +1,21 @@
+
+TAP version 13
+not ok 1 Linter Rule
+    ---
+    message:  Strings must use singlequote.
+    severity: error
+    file:     /someplace/index.js
+    line:     5
+    name:     ~
+    ...
+
+not ok 2 Linter Rule
+    ---
+    message:  Extra semicolon.
+    severity: error
+    file:     /someplace/index.js
+    line:     15
+    name:     ~
+    ...
+
+1..2
