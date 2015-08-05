@@ -2,11 +2,14 @@
 
 [![npm][npm-image]][npm-url]
 [![travis][travis-image]][travis-url]
+[![downloads][downloads-image]][downloads-url]
 
 [npm-image]: https://img.shields.io/npm/v/standard-tap.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/standard-tap
 [travis-image]: https://img.shields.io/travis/Flet/standard-tap.svg?style=flat-square
 [travis-url]: https://travis-ci.org/Flet/standard-tap
+[downloads-image]: https://img.shields.io/npm/dm/standard-tap.svg?style=flat
+[downloads-url]: https://npmjs.org/package/standard-tap
 
 Format JavaScript Standard Style as TAP output.
 
