@@ -19,16 +19,16 @@ function makeTap (rawtext, opts) {
     }
 
     ret += messages.map(function (el) {
-        var testName = 'Linter Rule'
-        if (el.ruleId) testName += ': ' + el.ruleId
-        return 'not ok ' + (++total) + ' ' + testName + '\n    ---' + yamlish.encode({
-            message: el.message,
-            severity: 'error',
-            file: result.filePath,
-            line: el.line || 0,
-            name: el.ruleId
-          }) + '\n    ...\n'
-      }).join('\n') + '\n'
+      var testName = 'Linter Rule'
+      if (el.ruleId) testName += ': ' + el.ruleId
+      return 'not ok ' + (++total) + ' ' + testName + '\n    ---' + yamlish.encode({
+        message: el.message,
+        severity: 'error',
+        file: result.filePath,
+        line: el.line || 0,
+        name: el.ruleId
+      }) + '\n    ...\n'
+    }).join('\n') + '\n'
   })
 
   ret += '1..' + total

@@ -32,7 +32,6 @@ test('stdTap complex true', function (t) {
 
   t.equal(dataTapped, output.output, 'TAP formatted output')
   t.equal(2, output.errors, 'TAP formatted error count')
-
 })
 
 test('stdTap complex true - no errors', function (t) {
@@ -44,6 +43,4 @@ test('stdTap complex true - no errors', function (t) {
 
   t.equal(dataTapped, output.output, 'TAP formatted output')
   t.equal(0, output.errors, 'TAP formatted error count')
-
 })
-
