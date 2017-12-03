@@ -2,15 +2,21 @@
   "name": "standard-tap",
   "description": "Format JavaScript Standard Style as TAP output",
   "version": "1.0.1",
+  "author": "Dan Flettre <fletd01@yahoo.com>",
   "bin": {
     "standard-tap": "./bin.js"
   },
-  "author": "Dan Flettre <fletd01@yahoo.com>",
   "bugs": {
     "url": "https://github.com/flet/standard-tap/issues"
   },
-  "devDependencies": {
+  "dependencies": {
+    "concat-stream": "^1.5.0",
+    "minimist": "^1.1.2",
     "standard": "*",
+    "standard-json": "^1.0.0",
+    "yamlish": "0.0.7"
+  },
+  "devDependencies": {
     "tap-spec": "^4.0.2",
     "tape": "^4.0.2"
   },
@@ -33,12 +39,5 @@
   },
   "scripts": {
     "test": "standard && tape test/*.js | tap-spec"
-  },
-  "dependencies": {
-    "concat-stream": "^1.5.0",
-    "minimist": "^1.1.2",
-    "standard": "^5.0.0",
-    "standard-json": "^1.0.0",
-    "yamlish": "0.0.7"
   }
 }
