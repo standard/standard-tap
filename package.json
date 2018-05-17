@@ -1,7 +1,7 @@
 {
   "name": "standard-tap",
   "description": "Format JavaScript Standard Style as TAP output",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Dan Flettre <fletd01@yahoo.com>",
   "bin": {
     "standard-tap": "./bin.js"
