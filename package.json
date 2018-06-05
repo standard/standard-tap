@@ -17,7 +17,7 @@
     "yamlish": "0.0.7"
   },
   "devDependencies": {
-    "tap-spec": "^4.0.2",
+    "tap-spec": "^5.0.0",
     "tape": "^4.0.2"
   },
   "homepage": "https://github.com/flet/standard-tap",
