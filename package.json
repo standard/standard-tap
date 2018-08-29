@@ -12,7 +12,7 @@
   "dependencies": {
     "concat-stream": "^1.5.0",
     "minimist": "^1.1.2",
-    "standard": "*",
+    "standard": "11.0.1",
     "standard-json": "^1.0.0",
     "yamlish": "0.0.7"
   },
