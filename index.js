@@ -4,7 +4,7 @@ var jsonify = require('standard-json')
 var yamlish = require('yamlish')
 
 function makeTap (rawtext, opts) {
-  opts = opts || {complex: false}
+  opts = opts || { complex: false }
 
   var results = jsonify(rawtext)
 
@@ -33,6 +33,6 @@ function makeTap (rawtext, opts) {
 
   ret += '1..' + total
 
-  if (opts.complex) return {output: ret, errors: total}
+  if (opts.complex) return { output: ret, errors: total }
   return ret
 }

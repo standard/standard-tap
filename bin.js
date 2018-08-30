@@ -36,8 +36,8 @@ if (!process.stdin.isTTY || argv._[0] === '-' || argv.stdin) {
   })
 }
 
-var concatStream = concat({encoding: 'string'}, function (data) {
-  var output = makeTap(data, {complex: true})
+var concatStream = concat({ encoding: 'string' }, function (data) {
+  var output = makeTap(data, { complex: true })
   console.log(output.output)
   if (output.errors) process.exit(1)
 })
