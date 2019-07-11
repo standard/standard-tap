@@ -10,7 +10,7 @@
     "url": "https://github.com/flet/standard-tap/issues"
   },
   "dependencies": {
-    "concat-stream": "^1.5.0",
+    "concat-stream": "^2.0.0",
     "minimist": "^1.1.2",
     "standard": "*",
     "standard-json": "^1.0.0",
